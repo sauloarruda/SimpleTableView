@@ -13,6 +13,10 @@
 		9F9D1B9716095333002B66EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F9D1B9516095333002B66EF /* InfoPlist.strings */; };
 		9F9D1B9916095333002B66EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9D1B9816095333002B66EF /* main.m */; };
 		9F9D1B9D16095333002B66EF /* TVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9D1B9C16095333002B66EF /* TVAppDelegate.m */; };
+		9F9D1BA416095354002B66EF /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9D1BA316095354002B66EF /* MainStoryBoard.storyboard */; };
+		9F9D1BA716095371002B66EF /* TVCidadesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9D1BA616095371002B66EF /* TVCidadesViewController.m */; };
+		9F9D1BAA1609567B002B66EF /* TVCidades.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9D1BA91609567B002B66EF /* TVCidades.m */; };
+		9F9D1BAD1609571F002B66EF /* TVAtrativosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9D1BAC1609571F002B66EF /* TVAtrativosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		9F9D1B9A16095333002B66EF /* SimpleTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTableView-Prefix.pch"; sourceTree = "<group>"; };
 		9F9D1B9B16095333002B66EF /* TVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVAppDelegate.h; sourceTree = "<group>"; };
 		9F9D1B9C16095333002B66EF /* TVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVAppDelegate.m; sourceTree = "<group>"; };
+		9F9D1BA316095354002B66EF /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryBoard.storyboard; sourceTree = "<group>"; };
+		9F9D1BA516095371002B66EF /* TVCidadesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCidadesViewController.h; sourceTree = "<group>"; };
+		9F9D1BA616095371002B66EF /* TVCidadesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCidadesViewController.m; sourceTree = "<group>"; };
+		9F9D1BA81609567B002B66EF /* TVCidades.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCidades.h; sourceTree = "<group>"; };
+		9F9D1BA91609567B002B66EF /* TVCidades.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCidades.m; sourceTree = "<group>"; };
+		9F9D1BAB1609571F002B66EF /* TVAtrativosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVAtrativosViewController.h; sourceTree = "<group>"; };
+		9F9D1BAC1609571F002B66EF /* TVAtrativosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVAtrativosViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +86,13 @@
 				9F9D1B9B16095333002B66EF /* TVAppDelegate.h */,
 				9F9D1B9C16095333002B66EF /* TVAppDelegate.m */,
 				9F9D1B9316095333002B66EF /* Supporting Files */,
+				9F9D1BA316095354002B66EF /* MainStoryBoard.storyboard */,
+				9F9D1BA516095371002B66EF /* TVCidadesViewController.h */,
+				9F9D1BA616095371002B66EF /* TVCidadesViewController.m */,
+				9F9D1BA81609567B002B66EF /* TVCidades.h */,
+				9F9D1BA91609567B002B66EF /* TVCidades.m */,
+				9F9D1BAB1609571F002B66EF /* TVAtrativosViewController.h */,
+				9F9D1BAC1609571F002B66EF /* TVAtrativosViewController.m */,
 			);
 			path = SimpleTableView;
 			sourceTree = "<group>";
@@ -143,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F9D1B9716095333002B66EF /* InfoPlist.strings in Resources */,
+				9F9D1BA416095354002B66EF /* MainStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +174,9 @@
 			files = (
 				9F9D1B9916095333002B66EF /* main.m in Sources */,
 				9F9D1B9D16095333002B66EF /* TVAppDelegate.m in Sources */,
+				9F9D1BA716095371002B66EF /* TVCidadesViewController.m in Sources */,
+				9F9D1BAA1609567B002B66EF /* TVCidades.m in Sources */,
+				9F9D1BAD1609571F002B66EF /* TVAtrativosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
